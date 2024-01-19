@@ -14,11 +14,13 @@ public class LaunchApp {
 		
 		WebDriver driver=new ChromeDriver(options);
 		
-		WebDriver ffDriver=new FirefoxDriver();
+		//WebDriver ffDriver=new FirefoxDriver();
 		
 		//To maximize browser window
 		driver.manage().window().maximize();
 		driver.get("https://selenium.dev");
+		
+		//driver.navigate().to("https://selenium.dev");
 		
 		String url=driver.getCurrentUrl();
 		System.out.println(url);
