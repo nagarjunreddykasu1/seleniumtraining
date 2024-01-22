@@ -1,0 +1,8 @@
+
+Session_3:
+==============
+1. Write a program to search with the user you created and update the password.
+
+2. Write a program to delete the user you created.
+
+3. Create common methods for sendKeys, click, clear, getText, isDisplayed, isEnabled, and to verify validation messages.
