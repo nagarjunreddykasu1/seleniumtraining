@@ -1,0 +1,21 @@
+Session_4:
+===========
+
+1. Write a program for the following scenario.
+i. Launch the application https://the-internet.herokuapp.com/
+ii. Navigate to Dynamic Loading page
+iii. Click on 'Example 2: Element rendered after the fact' link
+iv. Print the message 'Hello World!' on the console.
+
+2. Write a program for the following scenario.
+i. Launch the application https://www.facebook.com/
+ii. Navigate to Sign Up page
+iii. Select date of birth (Day: 25 Month: Apr Year: 1988)
+iv. Select 'Male' radio button as Gender
+
+3. Write a program for the following scenario.
+i. Launch the application https://www.facebook.com/
+ii. Navigate to Sign Up page
+iii. Retrieve all Month drop down values and store them into ArrayList
+iv. Add all expected Month drop down values into another ArrayList
+v. Compare both actual and expected drop down values. (Fail the method if there is at least one mismatched option)

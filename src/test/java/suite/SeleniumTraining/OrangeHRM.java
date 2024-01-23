@@ -24,6 +24,8 @@ public class OrangeHRM {
 		driver.findElement(By.name("password")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
+		
+		
 		driver.findElement(By.linkText("Admin")).click();
 		
 		driver.findElement(By.xpath("//button[contains(@class,'oxd-button')]/i")).click();
@@ -33,6 +35,8 @@ public class OrangeHRM {
 		//System.out.println(driver.getPageSource());
 		
 		driver.findElement(By.xpath("//div[@role='listbox']/div[2]/span")).click();
+		
+	
 		
 		
 		
