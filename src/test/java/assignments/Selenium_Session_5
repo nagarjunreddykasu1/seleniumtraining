@@ -1,0 +1,20 @@
+Session_5:
+============
+
+1. Write a program for the following scenario.
+i. Launch the application https://omayo.blogspot.com/
+ii. Select 'Swift' and 'Audi' from multi select drop down
+iii. Print all selected options on the console using for each, for loops and Iterator cursor.
+
+2. Write a program for the following scenario.
+i. Launch the application http://qa.circulus.io/login.aspx
+ii. Print the tag name of User name text field
+iii. Print the maxlength attribute value of User name text field
+iv. Print height and width of User name text field
+v. Print x and y coordinates of User name text field.
+
+3. Write a program for the following scenario.
+i. Launch the application https://www.spicejet.com/
+ii. Select Hyderabad (HYD) as From and Delhi (DEL) as To
+iii. Select 25th May 2024 as Departure Date.
+iv. Click on 'Search Flight' button
