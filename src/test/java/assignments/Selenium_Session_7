@@ -1,0 +1,19 @@
+Session_7:
+============
+
+1. Write a program for the following scenario.
+i. Launch the application https://jqueryui.com/selectmenu/
+ii. Select '10' from Select a Number drop down list.
+
+2. Write a program for the following scenario.
+i. Launch the application https://licindia.in/home
+ii. Click on 'Download LIC Apps' link
+iii. Print the alert message on the console
+iv. Click on 'Contact Us' link in new window
+v. Print the phone help line text 'Contact LIC Call Center at +91-022 6827 6827 Services are now available 24*7' on the console.
+
+3. Write a program for the following scenario.
+i. Launch the application https://www.naukri.com/
+ii. Click on 'Remote' widget
+iii. Print the page title of Remote Jobs
+iv. Print the total number of Remote Jobs displayed. (ex: 13492)
