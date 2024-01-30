@@ -71,7 +71,7 @@ public class MultipleWindows {
 		
 		String jobs="1 - 20 of 13826";
 		
-		System.out.println(jobs.split("of")[1]);
+		System.out.println(jobs.split("of")[1].trim());
 		
 		
 		

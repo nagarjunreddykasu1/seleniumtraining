@@ -1,0 +1,29 @@
+Session_8:
+===========
+
+1. Write a program for the following scenario.
+i. Launch the application https://jqueryui.com/autocomplete/
+ii. Enter 'J' in the Tags text field
+iii. Print all list items populated on the console
+iv. Select 'Java' from the list.
+
+2. Write a program for the following scenario.
+i. Launch the application https://licindia.in/home
+ii. Get all menu names and store them into ArrayList and print them on the console.
+
+3. Write a program for the following scenario.
+i. Launch the application https://licindia.in/home
+ii. Mouse over on 'Products' menu
+iii. Mouse over on 'Insurance Plans' sub menu
+iv. Get all Insurance Plans and store them into ArrayList and print them on the console.
+output: [Endowment Plans, Whole Life Plans, Money Back Plans, Term Assurance Plans, Riders]
+
+4. Write a program for the following scenario.
+i. Launch the application https://licindia.in/home
+ii. Mouse over on 'Group Schemes' menu
+iii. Get all sub menu items and store them into ArrayList and print them on the console.
+
+5. Write a program for the following scenario.
+i. Launch the application https://jqueryui.com/tooltip/
+ii. Print the tool tip message for 'ThemeRoller' link
+output: ThemeRoller: jQuery UI's theme builder application
