@@ -1,0 +1,9 @@
+
+Session_9:
+=============
+
+Write a program for the following scenario.
+i. Launch the application http://qa.circulus.io/login.aspx
+ii. Navigate to Sign Up page
+iii. Enter email id in Business Email field
+iv. Copy the same email id and paste it in Comments field.
