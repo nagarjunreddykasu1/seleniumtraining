@@ -1,0 +1,16 @@
+
+Session_10:
+============
+1. Write a program for the following scenario.
+i. Launch the application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+ii. Navigate to 'My Info' page
+iii. Click on 'Profile Picture' image
+iv. Click '+' icon and then upload the file using AutoIt
+v. Click on Save button
+
+2. Write a program for the following scenario.
+i. Launch the application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+ii. Navigate to 'My Info' page
+iii. Click on 'Profile Picture' image
+iv. Click '+' icon and then upload the file using Robot class
+v. Click on Save button
