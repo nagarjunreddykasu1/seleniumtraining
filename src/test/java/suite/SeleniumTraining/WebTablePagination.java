@@ -42,12 +42,14 @@ public class WebTablePagination {
 		for (String handle : handles) {
 			if (!parent.contentEquals(handle)) {
 				driver.switchTo().window(handle);
+				Thread.sleep(5000);
 				driver.close();
 			}
 		}
 
 		driver.switchTo().window(parent);
-
+		
+		int totalRecords=0;
 		for (int i = 2; i < pages.size(); i++) {
 			if (i != 2) {
 				driver.findElement(By.xpath("//span[@class='pagination']/ul/li[" + i + "]/a")).click();
@@ -56,13 +58,16 @@ public class WebTablePagination {
 
 			List<WebElement> rows = driver.findElements(By.xpath("//table[contains(@class,'issues')]/tbody/tr"));
 			System.out.println("Row count: " + rows.size());
-
+			
+			totalRecords=totalRecords + rows.size();
+			
 			for (int row = 1; row <= rows.size(); row++) {
 				String ticketid = driver.findElement(By.xpath("//table[contains(@class,'issues')]/tbody/tr[" + row + "]/td[2]/a")).getText();
 				System.out.println(ticketid);
 			}
-
 		}
+		
+		System.out.println("Total Records from all pages: "+totalRecords);
 
 	}
 

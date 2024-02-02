@@ -1,0 +1,18 @@
+
+
+1. Install the 'adblock' extention for chrome browser.
+
+i. open 'chrome://extensions/' on browser
+ii. Go to Chrome webstore and then search with 'AdBlock' and install it on the chrome browser.
+
+2. Get the crx file by following any of the ways mentioned in below site.
+https://techpp.com/2022/08/22/how-to-download-and-save-chrome-extension-as-crx/
+
+3. Place that crx file in project root folder. (ex: adplusblock.crx)
+
+4. Place the following ChromeOptions code at the beginning of main method.
+ChromeOptions options=new ChromeOptions();
+options.addExtensions(new File(System.getProperty("user.dir")+"\\adplusblock.crx"));
+WebDriver driver=new ChromeDriver(options);
+
+Note: refer the class 'WebTablePagination.java' in git repository for complete code on webtable.
