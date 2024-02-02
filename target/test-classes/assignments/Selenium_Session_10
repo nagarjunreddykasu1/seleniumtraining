@@ -14,3 +14,14 @@ ii. Navigate to 'My Info' page
 iii. Click on 'Profile Picture' image
 iv. Click '+' icon and then upload the file using Robot class
 v. Click on Save button
+
+3. Write a program for the following scenario.
+i. Launch the application https://licindia.in/home
+ii. Navigate to Term Assurance Plans page
+iii. Get all column names and store them into ArrayList and print on the console.
+iv. Get all Product Names and store then into ArrayList and print on the console.
+
+4. Write a program for the following scenario.
+i. Launch the application https://redmine.org/projects/redmine/issues
+ii. Select status condition as 'Is' and 'Confirmed'
+iii. Get Total number of ticket ids and all Ticket ids from all pages and print them on the console.
