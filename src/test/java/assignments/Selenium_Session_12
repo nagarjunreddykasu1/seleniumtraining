@@ -1,0 +1,26 @@
+Session_12:
+============
+1. Write a program for the following scenario.
+i. Launch the application https://the-internet.herokuapp.com/ in chrome browser
+ii. Navigate to File Download page
+iii. Get the first file name and download the same file
+iv. Verify whether the file is downloaded in custom download path.
+
+2. Write a program for the following scenario.
+i. Launch the application https://the-internet.herokuapp.com/ in firefox browser
+ii. Navigate to File Download page
+iii. Get the 10th file name and download the same file
+iv. Verify whether the file is downloaded in custom download path.
+
+3. Write a program for the following scenario using Relative locators.
+i. Launch the application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+ii. Login to the application
+iii. Click on 'My Leave' button in Quick Launch screen.
+
+4. Write a program for the following scenario.
+i. Launch the application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+ii. Login to the application
+iii. Navigate to Admin page
+iv. Click on Job menu (note: Use relative locators only upto 4th step)
+v. Get all sub menu items and store them into ArrayList and print on the console
+vi. Click on 'Job Categories' sub menu item.

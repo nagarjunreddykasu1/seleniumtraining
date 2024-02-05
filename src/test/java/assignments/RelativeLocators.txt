@@ -1,0 +1,41 @@
+Relative Locators in Selenium 4:
+================================
+
+Selenium 4 introduced Relative Locators. These locators are helpful when it is not easy to construct a locator for the desired element.
+
+There are 5 relative locators in Selenium 4:
+above()
+below()
+near()
+toLeftOf()
+toRightOf()
+
+1. above()
+above() is used to locate the web element(s) just above the specified element.
+
+RelativeLocator.with(By.tagName("input")).above(By.id("password"));
+
+2. below() 
+below() is used to locate the web element(s) just below the specified element.
+
+RelativeLocator.with(By.tagName("input")).below(By.id("username"));
+
+3. near()
+It is used to locate the web element(s) located at approximately 50 pixels away from the specified element. The distance can be passed as an argument to an overloaded method
+
+RelativeLocator.with(By.tagName("button")).near(By.name("password"));
+
+4. toLeftOf()
+It is used to locate the web element(s) present on the left of the specified element.
+
+RelativeLocator.with(By.tagName("button")).toLeftOf(By.id("submit"));
+
+5. toRightOf() 
+It is used to locate the web element(s) present on the right of the specified element.
+
+RelativeLocator.with(By.tagName("button")).toRightOf(By.id("cancel"));
+
+Chaining relative locators
+You can also chain locators if needed. Sometimes the element is most easily identified as being both above/below one element and right/left of another.
+
+RelativeLocator.with(By.tagName("button")).below(By.id("email")).toRightOf(By.id("cancel"));
