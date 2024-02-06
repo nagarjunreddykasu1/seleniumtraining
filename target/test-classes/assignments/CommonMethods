@@ -1,0 +1,46 @@
+
+
+Common Methods:
+===============
+Launch application
+Maximize browser
+Click
+SendKeys
+getText
+Webdriver Wait
+Fluent wait
+compare strings
+compare arraylists
+isDisplayed
+isEnabled
+isSelected
+selectValueFromDropdown list
+get all options from drop down list
+get selected option from drop down list
+get alert message
+click ok in alert
+click cancel in alert
+capture screenshot
+capture web element screenshot
+double click
+drag and drop
+get tool tip message
+right click
+mouse over
+file upload using robot class
+file upload using auto it
+file download
+click using javascript executor
+sendkeys using javascript executor
+scroll using javascript executor
+press Enter key
+press Tab key
+switch to frame
+switch to child window
+swith to parent window
+
+
+
+
+
+

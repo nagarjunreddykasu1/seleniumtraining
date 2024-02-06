@@ -27,6 +27,15 @@ toLeftOf()
 toRightOf()
 
 
+Invoke Tab
+
+Invoke new browser window
+
+Capture screenshot for webelement
+
+
+Height, width, x and y coordinates of webelement
+
 
 
 */

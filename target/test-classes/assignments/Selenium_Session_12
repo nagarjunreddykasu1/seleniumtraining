@@ -21,6 +21,6 @@ iii. Click on 'My Leave' button in Quick Launch screen.
 i. Launch the application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 ii. Login to the application
 iii. Navigate to Admin page
-iv. Click on Job menu (note: Use relative locators only upto 4th step)
+iv. Click on Job menu (note: Use relative locators only up to 4th step)
 v. Get all sub menu items and store them into ArrayList and print on the console
 vi. Click on 'Job Categories' sub menu item.
