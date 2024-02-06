@@ -38,8 +38,10 @@ press Tab key
 switch to frame
 switch to child window
 swith to parent window
-
-
+Capture webelement screenshot
+Invoke application new tab
+Invoke application new browser window
+get dimensions of webelement
 
 
 
