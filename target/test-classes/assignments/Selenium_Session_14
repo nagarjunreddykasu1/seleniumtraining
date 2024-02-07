@@ -1,6 +1,16 @@
 Session_14:
 ============
 
-1. Write a program for the following scenario.
-i. Launch the application   before each test case
-ii. 
+TestNG:
+1. Write the selenium code for the following scenario.
+i. Launch the application https://the-internet.herokuapp.com/login in chrome browser before executing all test cases
+ii. Test Case1: Verify the display of Username, Password text fields and Login button
+iii. Test Case2: Verify the user is able to login to the application using username 'tomsmith' and password 'SuperSecretPassword!'. 
+	validate the message 'Welcome to the Secure Area. When you are done click logout below.'
+iv. Terminate the driver/browser session after executing all the test cases
+
+2. Write the selenium code for the following scenario.
+i. Launch the application https://the-internet.herokuapp.com/tables in chrome browser before executing each test case
+ii. Test Case1: Get all the column names of first table (Example 1) and compare with expected column names.
+iii. Test Case2: Print all email ids of first table (Example 1) on the console.
+iv. Terminate the driver/browser session after executing each test case.
