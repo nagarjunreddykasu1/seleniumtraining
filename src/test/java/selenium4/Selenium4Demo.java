@@ -31,10 +31,9 @@ Invoke Tab
 
 Invoke new browser window
 
-Capture screenshot for webelement
+Capture screenshot for web element
 
-
-Height, width, x and y coordinates of webelement
+Height, width, x and y coordinates of web element
 
 
 
