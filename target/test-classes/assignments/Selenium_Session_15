@@ -1,0 +1,19 @@
+Session_15:
+==============
+
+1. Write the code for the following scenario.
+i. Create two classes(eg: Login, Search) and write 5 test cases in each class
+ii. group 2 test cases as sanity and 3 test cases as regression in each class
+iii. configure the testng.xml file to execute only regression test cases from Login and Search classes
+
+2. Write the code for the following scenario.(here, configure parameters browser and url in testng.xml and use them)
+i. Launch the application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login in chrome browser before executing each test case
+ii. Test case1: Verify the validation messages displayed when clicking on Login button without entering username and password.
+iii. Test case2: Verify the validation message displayed when entering invalid credentials and clicking on Login button.
+iv. Test case3: Verify the user is able to login to the application using valid credentials and redirects to Dashboard page.
+v.  Test case4: Navigate to Admin page and validate all sub menu items from Job menu.
+vi. Terminate the driver/browser session after executing each test case.
+
+3. Write the code for the following scenario.(here, configure parameters browser and url in testng.xml and use them)
+i. Create 3 test cases in a class for any scenarios in any web application
+ii. Execute those test cases in chrome headless mode

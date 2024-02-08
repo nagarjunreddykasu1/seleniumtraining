@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
   <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="testng.AutomationTest1">
+      <class name="testng.AutomationTest3">
         <methods>
           <include name="launchApp"/>
+          <include name="afterClass"/>
           <include name="TC_Login_01"/>
+          <include name="TC_Login_02"/>
         </methods>
-      </class> <!-- testng.AutomationTest1 -->
+      </class> <!-- testng.AutomationTest3 -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
