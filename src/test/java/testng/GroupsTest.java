@@ -17,6 +17,7 @@ public class GroupsTest {
 	@Test(groups= {"sanity"})
 	public void TC_Login_03() {
 		System.out.println("TC_Login_03 test case");
+		System.out.println(10/0);
 	}
 	@Test(groups= {"regression"})
 	public void TC_Login_04() {
@@ -49,14 +50,15 @@ public class GroupsTest {
 	
 	@Test(dependsOnGroups = {"sanity"})
 	public void TC_Login_11() {
-		System.out.println("TC_Login_11 test case");
+		System.out.println("Dependent TC_Login_11 test case");
 	}
 	
-	@BeforeGroups(groups= {"sanity"})
-	@Test
-	public void TC_Login_12() {
-		System.out.println("TC_Login_12 test case");
-	}
+	
+	  @BeforeGroups(groups= {"sanity"})
+	  
+	  @Test public void TC_Login_12() {
+	  System.out.println("TC_Login_12 test case"); }
+	 
 	
 	@AfterGroups(groups= {"sanity"})
 	@Test

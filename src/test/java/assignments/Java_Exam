@@ -1,0 +1,108 @@
+											JAVA Exam
+											
+Name:																					Team:
+Employee ID:																			Total Marks: 50 (25 * 2)
+==================================================================================================================================											
+1. What are the different types of variables in Java?
+Ans:
+
+
+2. What is the difference between private and protected modifier?
+Ans:
+
+
+3. What are the characteristics of local variables?
+Ans:
+
+4. How to call instance variables and instance methods from one class inside instance method of another class?
+Ans:
+
+5. How to call static variables and static methods from one class inside instance method of another class?
+Ans:
+
+6. What is the difference between == and .equals() in Java?
+Ans:
+
+7. What are the differences between 'this' and 'super' keywords?
+Ans:
+
+8. Can you use both this() and super() in a constructor? If not, mention the reason.
+Ans:
+
+9. What are the rules for method overriding?
+Ans:
+
+10. Can we change the scope of overridden method in the sub class? Describe briefly.
+Ans:
+
+11. What is the difference between 'throw' and 'throws' keywords?
+Ans:
+
+12. What are the differences between List and Set interfaces?
+Ans:
+
+13. What are the differences between HashSet and TreeSet classes?
+Ans:
+
+14. What are the differences between HashMap and TreeMap classes?
+Ans:
+
+15. Write a program to print duplicate numbers from integer array?
+Ans:
+
+16. Write a program to print factorial value of 6 using while loop?
+Ans:
+
+17. Write a program to print each word from the string "XTGLOBAB INFOTECH LIMITED" in reverse order?
+Ans:
+
+18. What are the different possibilities to compare two strings? Explain with example program.
+Ans:
+
+19. Write a program to print the number from the given string "There are 25 records in the grid"? output should be 25.
+Ans:
+
+20. What are the different types of cursors? list out the characteristics of each cursor.
+Ans:
+
+21. What are the different types of constructors?
+Ans:
+
+22. What is the difference between String, StringBuffer and StringBuilder classes?
+Ans:
+
+23. Write a program to read the data from .properties file?
+Ans:
+
+24. Given the following:
+A and E are classes
+B and D are interfaces
+C is an abstract class
+
+Which statements are true?
+i. class F implements B{ }
+ii. class F extends E{ }
+iii. class F implements B,D{ }
+iv. class F implements B,C{ }
+v. class F extends A,E{ }
+
+Ans:
+
+25. Given the following:
+A and E are classes
+B and D are interfaces
+
+Which statements are true?
+i. interface F extends B,D{ }
+ii. interface F extends D{ }
+iii. interface F implements D{ }
+iv. interface F implements B,D{ }
+v. interface F extends E{ }
+
+Ans:
+
+
+
+
+
+

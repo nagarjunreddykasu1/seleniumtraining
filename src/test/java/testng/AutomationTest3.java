@@ -14,11 +14,15 @@ import org.testng.annotations.Test;
 import suite.SeleniumTraining.Reusable;
 
 public class AutomationTest3 {
+	
+	String browser, url;
 
 	@Parameters({"browser","url"})
 	@BeforeClass
 	public void launchApp(String browser, String url) {
 		Reusable.launchApp(browser, url);
+		this.browser=browser;
+		this.url=url;
 	}
 
 	//Verify the page title in OrangeHRM page

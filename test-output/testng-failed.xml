@@ -5,14 +5,12 @@
   <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
   <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="testng.AutomationTest3">
+      <class name="testng.AssertionsTest">
         <methods>
-          <include name="launchApp"/>
-          <include name="afterClass"/>
           <include name="TC_Login_01"/>
-          <include name="TC_Login_02"/>
+          <include name="launchApp"/>
         </methods>
-      </class> <!-- testng.AutomationTest3 -->
+      </class> <!-- testng.AssertionsTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

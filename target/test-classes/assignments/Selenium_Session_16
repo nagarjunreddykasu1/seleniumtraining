@@ -1,0 +1,14 @@
+Session_16:
+============
+1. Write the code for the following scenario.
+i. Create 3 test cases in a class for any scenarios in any web application (here, configure parameters browser and url in testng.xml and use them)
+ii. Execute all 3 test cases parallelly in chrome browser
+
+2. Write the code for the following scenario.
+i. Create two classes and write 3 test cases in each class for any scenarios in any web application (here, configure parameters browser and url in testng.xml and use them)
+ii. Execute two classes parallelly in chrome browser
+
+3. Write the code for the following scenario.
+i. Implement all the methods of ITestListener interface
+ii. Create two classes and write 3 test cases in each class for any scenarios in any web application (here, configure parameters browser and url in testng.xml and use them)
+iii. Create testng xml file to execute all test cases by considering listener.
