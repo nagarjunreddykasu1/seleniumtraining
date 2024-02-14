@@ -89,7 +89,7 @@ v. class F extends A,E{ }
 Ans:
 
 25. Given the following:
-A and E are classes
+A and F are classes
 B and D are interfaces
 
 Which statements are true?

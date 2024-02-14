@@ -45,9 +45,9 @@ public class Reusable {
 	
 	public static void launchApp(String browser, String url) {
 		if(browser.contentEquals("chrome")) {
-			ChromeOptions options=new ChromeOptions();
-			options.addArguments("headless");
-			driver=new ChromeDriver(options);
+			//ChromeOptions options=new ChromeOptions();
+			//options.addArguments("headless");
+			driver=new ChromeDriver();
 		}
 		else if(browser.contentEquals("firefox")) {
 			FirefoxOptions options=new FirefoxOptions();
@@ -101,6 +101,11 @@ public class Reusable {
 	}
 	public static void quit() {
 		driver.quit();
+	}
+	
+	
+	public static String getText(WebElement element) {
+		return element.getText();
 	}
 	
 	
