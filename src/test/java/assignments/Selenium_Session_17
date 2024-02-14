@@ -1,0 +1,13 @@
+Session_17:
+============
+
+Write a program for the following scenario.
+i. Launch the application https://the-internet.herokuapp.com/login in chrome browser
+ii. Verify the login functionality by passing different set of test data using dataprovider.
+	Username	Password
+	=========   =========
+	invalid		valid
+	valid		invalid
+	blank		blank
+	valid		valid
+	
