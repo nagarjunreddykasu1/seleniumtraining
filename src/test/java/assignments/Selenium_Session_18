@@ -1,0 +1,12 @@
+Session_18:
+============
+
+1. Write a program for the following scenario.
+i. Define a dataprovider with Method object as parameter
+ii. Pass the test data to the test case based on method name.
+
+2. Write a program for the following scenario.
+i. Define a dataprovider with ITestContext object as parameter
+ii. Pass the test data to the test case based on test suite name.
+
+3. Write a program to implement methods for all excel operations in ExcelReader class.

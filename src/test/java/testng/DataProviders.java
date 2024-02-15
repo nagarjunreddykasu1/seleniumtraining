@@ -2,6 +2,7 @@ package testng;
 
 import java.lang.reflect.Method;
 
+import org.testng.ITestContext;
 import org.testng.annotations.DataProvider;
 
 public class DataProviders {
@@ -27,6 +28,23 @@ public class DataProviders {
 		
 	}
 	
+	
+	@DataProvider
+	public static Object[][] getLoginData(ITestContext context){
+		
+		String testName=context.getName();
+		
+		if(testName.equals("sanity")) {
+			return new Object[][] {{"user1@gmail.com","Test@123"}};
+		}
+		else if(testName.equals("regression")) {
+			return new Object[][] {{"Admin","admin123","valid"}};
+		}
+		return null;
+		
+		
+		
+	}
 	
 
 }
