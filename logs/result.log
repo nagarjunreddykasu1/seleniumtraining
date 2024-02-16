@@ -1,0 +1,2 @@
+2024-02-16 11:15:17,581 ERROR [Log4JTest] Actual and expected page titles are NOT equal. 
+2024-02-16 11:15:17,581 ERROR [Log4JTest] java.lang.ArithmeticException: / by zero 

@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test1">
     <classes>
-      <class name="datadriven.ExcelData"/>
+      <class name="datadriven.Log4JTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
