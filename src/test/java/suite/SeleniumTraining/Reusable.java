@@ -5,9 +5,15 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
+import java.time.LocalDateTime;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -108,6 +114,19 @@ public class Reusable {
 		return element.getText();
 	}
 	
+	public static String takeScreenshot(String methodName) throws IOException {
+		TakesScreenshot ts=(TakesScreenshot)driver;
+		File source=ts.getScreenshotAs(OutputType.FILE);
+		String filePath=System.getProperty("user.dir")+"\\screenshots\\"+methodName+".png";
+		File dest=new File(filePath);
+		FileUtils.copyFile(source, dest);
+		
+		return filePath;
+	}
+	
+	public static void delay(int seconds) throws InterruptedException {
+		Thread.sleep(1000*seconds);
+	}
 	
 	
 	

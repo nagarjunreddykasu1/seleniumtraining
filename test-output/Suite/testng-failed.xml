@@ -5,13 +5,15 @@
   <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
   <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="testng.DataProvidersTest2">
+      <class name="datadriven.ExtentReportsTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="TC_Login" invocation-numbers="0 1 3"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
           <include name="launchApp"/>
+          <include name="afterSuite"/>
+          <include name="TC_Login_01"/>
         </methods>
-      </class> <!-- testng.DataProvidersTest2 -->
+      </class> <!-- datadriven.ExtentReportsTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -29,10 +29,6 @@ public class Log4JTest {
 			log.error("Actual and expected page titles are NOT equal.");
 			log.error(e);
 		}
-		
-		
-		
-		
 	}
 
 }
