@@ -23,14 +23,14 @@ public class OracleDBTest {
 			ds.setURL(DB_URL);
 			ds.getConnection(DB_UserName, DB_Password);
 			
-			String query="SELECT * FROM PAYEMNT_TERMS WHERE ACTIVE_FLAG='Y'";
+			String query="SELECT * FROM PAYMENT_TERMS WHERE ACTIVE_FLAG='Y'";
 			PreparedStatement ps=con.prepareStatement(query);
 			
 			ResultSet rs=ps.executeQuery();
 			
 			ArrayList<String> terms=new ArrayList<>();
 			while(rs.next()) {
-				terms.add(rs.getString("PEYMENT_TERMS_NAME"));
+				terms.add(rs.getString("PAYMENT_TERMS_NAME"));
 			}
 			
 			

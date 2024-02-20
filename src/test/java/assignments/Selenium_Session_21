@@ -1,0 +1,16 @@
+Session_21:
+===========
+
+1. Write a program to connect to the SQL Server DB and fetch the data from any table.
+(here, you can mention sample db connection string and table details)
+
+2. Framework: 
+i. Create Maven project and add all required dependencies in pom.xml
+ii. Create packages for utility classes, config files, database connections/queries, page classes, test cases classes, test data excel files
+iii. Implement all utility classes in utils package
+iv. Create .properties file to configure db connection string in configuration package
+v. Create a class to establish the connection to the database and another class to define methods to retrieve the data from db tables
+vi. Place test data excel file in testdata package
+vii. Create a page class in pages package and define all locators as By objects and 
+implement all action methods that belong to corresponding component/web page and retrieve the data from excel file.
+viii. Create a class with component name in suite package and implement all test cases.
